@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>home.jd.concurrency</groupId><parent>
+        <groupId>home.jd.concurrency</groupId>
+        <artifactId>concurrency-parent</artifactId>
+        <version>1.0</version>
+    </parent>
+	<artifactId>concurrency-main</artifactId>
+	<name>Concurrency in practice</name>
+	<description>Concurrency in practice test project</description>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>home.jd.concurrency</groupId>
+			<artifactId>concurrency-common-db</artifactId>
+			<version>1.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>home.jd.concurrency</groupId>
+			<artifactId>concurrency-common-data</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>3.2.10.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>3.2.10.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>3.2.10.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.180</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.jcip</groupId>
+			<artifactId>jcip-annotations</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+
+	</dependencies>
+
+</project>
