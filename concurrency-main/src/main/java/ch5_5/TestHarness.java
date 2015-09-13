@@ -17,7 +17,7 @@ public class TestHarness {
 					try {
 						startGate.await();
 						try {
-							task.run();
+							task.run();		
 						} finally {
 							endGate.countDown();
 						}
@@ -26,7 +26,7 @@ public class TestHarness {
 						
 					}
 				}
-				
+					
 			};
 			t.start();
 		}
