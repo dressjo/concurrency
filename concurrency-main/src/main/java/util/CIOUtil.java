@@ -19,7 +19,7 @@ public class CIOUtil {
 			throws IOException {
 
 		BufferedInputStream buf = null;
-		ByteArrayOutputStream out = null;;
+		ByteArrayOutputStream out = null;
 
 		try {
 
