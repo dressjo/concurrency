@@ -45,11 +45,3 @@ class PrimeProducer extends Thread {
 		
 	}
 }
-
-class Consume implements Runnable { 
-	
-	@Override
-	public void run() { 
-	
-	}
-}

@@ -51,8 +51,7 @@ public class TimedRunClass {
 		};
 		try {
 			TimedRunClass.timedRun(task, 8000l, TimeUnit.MILLISECONDS);
-		} catch (InterruptedException e) { 
-			
+		} catch (InterruptedException e) { 			
 			System.out.println("Exectuion was interrupted");
 		}
 		
